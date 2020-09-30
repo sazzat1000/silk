@@ -1,0 +1,150 @@
+// @media (max-width: 349.98px) {
+//   #avone {
+//     .avone-image-box-3 {
+//       margin-top: 0;
+//     }
+//   }
+// }
+@media (max-width: 575.98px) {
+  #banner {
+    .banner-content {
+      h1 {
+        font-size: 5rem;
+      }
+      .btn-discover {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  #avone {
+    .avone-image-box-3 {
+      margin-top: 0;
+    }
+  }
+
+}
+@media (max-width: 767.98px) {
+  #banner {
+    padding: 15rem 0 10rem;
+  }
+  #feature {
+    .image-box {
+      margin-bottom: 2rem;
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  nav {
+    .check-btn {
+      display: block;
+    }
+    #check:checked ~ ul {
+      left: 0;
+    }
+    ul {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #232323;
+      top: 7.5rem;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+      z-index: 999999;
+      li {
+        display: block;
+        margin: 1.3rem 0;
+        line-height: 30px;
+        a {
+          font-size: 2rem;
+          color: #fff;
+        }
+        a:hover,
+        a.active {
+          background: none;
+          color: #ff0069;
+        }
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// @media (min-width: 350px) and (max-width: 575.98px) {
+ 
+// }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+  #top-footer {
+    .footer-item {
+      text-align: center;
+    }
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .product {
+    .category {
+      font-size: 1.3rem;
+    }
+    .product-name {
+      a {
+        font-size: 1.6rem;
+      }
+    }
+    .price {
+      .old-price {
+        font-size: 1.4rem;
+      }
+      .new-price {
+        font-size: 2rem;
+      }
+    }
+  }
+  #banner {
+    .banner-content {
+      h1 {
+        font-size: 6rem;
+      }
+      .btn-discover {
+        margin-right: 1rem;
+      }
+    }
+  }
+  #feature {
+    .image-box-overlay {
+      .btn {
+        padding: 1rem 1rem;
+      }
+    }
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #banner {
+    .banner-content {
+      h1 {
+        font-size: 7rem;
+      }
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
+  .product {
+    .category {
+      font-size: 1.4rem;
+    }
+    .product-name {
+      a {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  #avone {
+    .avone-image-box-3 {
+      border-width: 1rem;
+    }
+  }
+}
